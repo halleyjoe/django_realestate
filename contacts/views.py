@@ -29,7 +29,7 @@ def contact(request):
         send_mail(
             'Property listing Inquiry'
             'There has been an inquiry for ' + listing + '. Singn into the admin panel for more info',
-            'josephwillies@gmail.com'
+            'josephwillies@gmail.com',
             [realtor_email, 'rambojoewillis@gmail.com'],
             fail_silently=False
         )
