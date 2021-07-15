@@ -9,4 +9,3 @@ db.sqlite3-journal
 venv
 /static
 .vscode
-settings.py
